@@ -1,158 +1,158 @@
-# RADEQuiz me AI API Key kaise use karein
-### Sr.AI'so (AI Accounts Expert) — poora tutorial
+# How to Use an AI API Key in RADEQuiz
+### Sr.AI'so (AI Accounts Expert) — Complete Tutorial
 
-Sr.AI'so app ka AI dost hai — Railway Accounts ke sawalon ke jawab deta hai,
-answer explain karta hai aur doubt clear karta hai. Ye tutorial batayega ki
-apni **API key** kaise lagayein taaki aap apne pasand ke AI provider
-(OpenAI / Gemini / Groq) se jawab pa sakein.
-
----
-
-## 1. Bina key ke bhi chalta hai
-
-App kholte hi **Free AI** pehle se chalu hota hai. Iske liye **koi key nahi
-chahiye** — bas Sr.AI'so se baat karna shuru kar do. Agar aapko Free AI se
-kaam chal raha hai to aage padhne ki zaroorat nahi!
-
-Key sirf tab lagayein jab aap tez / behtar jawab chahte ho, ya apna khud ka
-AI account use karna chahte ho.
+Sr.AI'so is the app's AI companion — it answers Railway Accounts questions,
+explains answers and clears your doubts. This tutorial shows you how to add
+your own **API key** so you can get answers from the AI provider of your
+choice (OpenAI / Gemini / Groq).
 
 ---
 
-## 2. Kaun-kaun se AI provider hain?
+## 1. It works without a key too
 
-| AI | Key zaroori? | Kharach | Key kahan se milegi |
-|----|--------------|---------|---------------------|
-| **Free AI** | Nahi | Bilkul free | Kuch nahi karna |
-| **Gemini** (Google) | Haan | Free limit ke saath | [aistudio.google.com](https://aistudio.google.com) |
-| **Groq** | Haan | Free limit ke saath | [console.groq.com](https://console.groq.com) |
-| **OpenAI** | Haan | Paid (paisa lagta hai) | [platform.openai.com](https://platform.openai.com) |
+The app starts with **Free AI** already enabled. **No key is needed** for it —
+just start chatting with Sr.AI'so. If Free AI is enough for you, you don't
+need to read further!
 
-> **Naye users ke liye salah:** Pehle **Gemini** ya **Groq** try karo —
-> dono free limit dete hain, key banana aasaan hai.
+Add a key only if you want faster / better answers, or prefer using your own
+AI account.
 
 ---
 
-## 3. API Key kaise banayein (step-by-step)
+## 2. Which AI providers are available?
+
+| AI | Key required? | Cost | Where to get the key |
+|----|---------------|------|----------------------|
+| **Free AI** | No | Completely free | Nothing to do |
+| **Gemini** (Google) | Yes | Free tier included | [aistudio.google.com](https://aistudio.google.com) |
+| **Groq** | Yes | Free tier included | [console.groq.com](https://console.groq.com) |
+| **OpenAI** | Yes | Paid | [platform.openai.com](https://platform.openai.com) |
+
+> **Recommendation for new users:** Try **Gemini** or **Groq** first —
+> both offer a free tier and the key is easy to create.
+
+---
+
+## 3. How to create an API key (step-by-step)
 
 ### Gemini (Google) — Free
-1. Mobile ya computer par kholo: **aistudio.google.com**
-2. Apne Google account se **Sign in** karo.
-3. **"Get API Key"** par tap karo → **"Create API key"** dabao.
-4. Jo lambi key dikhe (jaise `AIza...`), use **Copy** kar lo.
-5. Is key ko kahin safe jagah note kar lo — dobara poori nahi dikhegi.
+1. Open **aistudio.google.com** on your mobile or computer.
+2. **Sign in** with your Google account.
+3. Tap **"Get API Key"** → **"Create API key"**.
+4. **Copy** the long key shown (looks like `AIza...`).
+5. Note it down somewhere safe — the full key won't be shown again.
 
 ### Groq — Free
-1. Kholo: **console.groq.com**
-2. Google/GitHub se **Sign up / Log in** karo.
-3. Left menu me **"API Keys"** par jao → **"Create API Key"** dabao.
-4. Key copy kar lo — ye `gsk_...` se shuru hoti hai.
+1. Open **console.groq.com**.
+2. **Sign up / Log in** with Google or GitHub.
+3. Go to **"API Keys"** in the left menu → **"Create API Key"**.
+4. Copy the key — it starts with `gsk_`.
 
 ### OpenAI — Paid
-1. Kholo: **platform.openai.com**
-2. Account banao, **Billing** me payment method add karo (bina paise ke key
-   kaam nahi karegi).
-3. **API Keys** → **"Create new secret key"** → key copy kar lo.
-4. Ye key `sk-...` se shuru hoti hai.
+1. Open **platform.openai.com**.
+2. Create an account and add a payment method under **Billing** (the key
+   won't work without it).
+3. Go to **API Keys** → **"Create new secret key"** → copy the key.
+4. The key starts with `sk-`.
 
-> **Zaroori:** API key password jaisi hoti hai — kisi ke saath share mat karo,
-> screenshot me mat bhejo, public jagah paste mat karo.
-
----
-
-## 4. App me key kaise daalein
-
-1. RADEQuiz app kholo.
-2. Neeche right corner me **Sr.AI'so ka gol button (FAB)** dabao — AI chat
-   khul jayegi.
-3. Chat header me **🔑 (key)** button dabao — **"AI API Keys"** sheet khulegi.
-4. **"Select AI"** me apna provider chuno (OpenAI / Gemini / Groq).
-   - **Free AI** chunne par key ki zaroorat nahi — field band rahega.
-5. Key wale box me apni key **paste** karo.
-   - Hint me likha hoga: OpenAI ke liye `sk-...`, Gemini ke liye AI Studio
-     key, Groq ke liye `gsk_...`
-6. **Save** dabao. Bas! Ab Sr.AI'so aapke provider se jawab dega.
-
-**Key pehchanne ka shortcut:** `sk-` se shuru hone wali key OpenAI ki hoti
-hai, `gsk_` se shuru hone wali Groq ki — app inhe khud pehchan leta hai.
+> **Important:** An API key is like a password — never share it with anyone,
+> don't send it in screenshots, and don't paste it in public places.
 
 ---
 
-## 5. Jawab kaun dega? (Fallback order)
+## 4. How to add the key in the app
 
-Agar aapne koi provider chuna hai to Sr.AI'so is order me koshish karta hai:
+1. Open the RADEQuiz app.
+2. Tap the round **Sr.AI'so button (FAB)** at the bottom-right — the AI chat opens.
+3. Tap the **🔑 (key)** button in the chat header — the **"AI API Keys"** sheet opens.
+4. Under **"Select AI"**, choose your provider (OpenAI / Gemini / Groq).
+   - If you select **Free AI**, no key is needed — the field stays disabled.
+5. **Paste** your key into the key box.
+   - The hint tells you the format: `sk-...` for OpenAI, AI Studio key for
+     Gemini, `gsk_...` for Groq.
+6. Press **Save**. Done! Sr.AI'so will now answer using your provider.
 
-1. **Aapka chuna hua provider** (agar uski key save hai)
-2. **Gemini** (agar uski key save hai)
-3. **Groq** (agar uski key save hai)
-4. **Free AI** (hamesha backup — kabhi khaali haath nahi lautata)
-
-Har jawab ke neeche **"Powered by ..."** badge batata hai ki jawab kis AI ne
-diya. Agar ek provider fail ho jaye (jaise quota khatm), to Sr.AI'so khud
-agle provider par chala jata hai — aapko kuch karne ki zaroorat nahi.
-
-> **Note:** Agar aapne **Free AI** select kiya hai to sirf Free AI use hoga,
-> fallback nahi chalega.
-
----
-
-## 6. Token usage aur daily limit (💲 button)
-
-Chat header me **💲** button dabane par dikhta hai:
-
-- **Last 24 hours** me kitna use hua
-- **Total** use
-- **Daily limit** — aap khud per-provider roz ki limit laga sakte ho
-  (Remaining + progress bar ke saath)
-
-Daily limit lagane se aapka paid quota achanak khatm nahi hoga. Limit
-poori hone par wo provider us din skip ho jayega aur fallback chalega.
+**Shortcut to recognise keys:** keys starting with `sk-` belong to OpenAI,
+keys starting with `gsk_` belong to Groq — the app detects this automatically.
 
 ---
 
-## 7. Privacy — aapki key surakshit hai
+## 5. Who will answer? (Fallback order)
 
-- Key **sirf aapke phone me** save hoti hai (app ke private storage me).
-- Key **kahin upload nahi hoti** — na server par, na kisi aur device par.
-- App key ko sirf us AI provider ko bhejta hai jise aapne chuna hai, jawab
-  lane ke liye. Iske alawa key kahin nahi jaati.
+If you selected a provider, Sr.AI'so tries them in this order:
+
+1. **Your selected provider** (if its key is saved)
+2. **Gemini** (if its key is saved)
+3. **Groq** (if its key is saved)
+4. **Free AI** (always the backup — you never get an empty reply)
+
+Every answer shows a **"Powered by ..."** badge telling you which AI replied.
+If one provider fails (e.g. quota exhausted), Sr.AI'so automatically moves to
+the next one — you don't have to do anything.
+
+> **Note:** If you selected **Free AI**, only Free AI is used — no fallback runs.
 
 ---
 
-## 8. Dikkat aaye to (Troubleshooting)
+## 6. Token usage & daily limit (💲 button)
 
-| Dikkat | Wajah / Hal |
-|--------|-------------|
-| "Invalid key" / jawab nahi aa raha | Key galat paste hui hai — poori key dobara copy-paste karo, aage-peeche space na ho |
-| Pehle chalti thi, ab nahi | Provider ka free quota khatm ho sakta hai — nayi key banao ya doosra provider try karo |
-| "Daily limit reached" | 💲 me limit badhao ya kal tak wait karo; fallback se Free AI phir bhi chalega |
-| Key save nahi ho rahi | Sahi provider select kiya hai na? Free AI me key field band rehta hai — ye normal hai |
-| OpenAI key kaam nahi kar rahi | Billing me payment method add hai? Bina balance ke OpenAI key kaam nahi karti |
+Tapping the **💲** button in the chat header shows:
+
+- Usage in the **last 24 hours**
+- **Total** usage
+- **Daily limit** — you can set a per-provider daily cap yourself
+  (shown with Remaining + progress bar)
+
+Setting a daily limit protects your paid quota from running out suddenly.
+Once the limit is reached, that provider is skipped for the day and the
+fallback takes over.
+
+---
+
+## 7. Privacy — your key is safe
+
+- Your key is stored **only on your phone** (in the app's private storage).
+- The key is **never uploaded anywhere** — not to any server, not to any
+  other device.
+- The app sends the key only to the AI provider you selected, just to fetch
+  the answer. It goes nowhere else.
+
+---
+
+## 8. Troubleshooting
+
+| Problem | Cause / Fix |
+|---------|-------------|
+| "Invalid key" / no answer | Key was pasted incorrectly — copy-paste the full key again, with no extra spaces |
+| It worked before, not now | The provider's free quota may be over — create a new key or try another provider |
+| "Daily limit reached" | Raise the limit under 💲 or wait till tomorrow; Free AI still works via fallback |
+| Key won't save | Did you select the right provider? The key field stays disabled for Free AI — that's normal |
+| OpenAI key doesn't work | Is a payment method added under Billing? OpenAI keys don't work without balance |
 
 ---
 
 ## 9. Quick FAQ
 
-**Q. Kya bina key ke sab features chalenge?**
-Haan — Free AI par chat, answer explanation, doubt box sab chalta hai.
+**Q. Do all features work without a key?**
+Yes — chat, answer explanations, and the doubt box all work on Free AI.
 
-**Q. Ek se zyada keys daal sakte hain?**
-Haan — teeno providers ki key ek saath save kar sakte ho. Fallback order
-se best available use hoga.
+**Q. Can I save more than one key?**
+Yes — you can save keys for all three providers at once. The fallback order
+picks the best available one.
 
-**Q. Key badalni / hatani ho to?**
-Wapas 🔑 sheet kholo, nayi key paste karke Save karo. Hatane ke liye field
-khaali karke Save karo.
+**Q. How do I change or remove a key?**
+Reopen the 🔑 sheet, paste the new key and press Save. To remove, clear the
+field and press Save.
 
-**Q. Kya key doosre phone me chalegi?**
-Key aapke account ki hai, phone ki nahi — doosre phone ke app me wapas
-paste karni hogi. Ek key ek se zyada jagah use ho sakti hai.
+**Q. Will my key work on another phone?**
+The key belongs to your account, not your phone — you'll need to paste it
+again in the app on the other phone. One key can be used in multiple places.
 
-**Q. Paise katne ka dar hai?**
-Gemini aur Groq ke free limit me paise nahi lagte. Sirf OpenAI paid hai —
-usme 💲 daily limit zaroor laga lo.
+**Q. Worried about charges?**
+Gemini and Groq free tiers cost nothing. Only OpenAI is paid — do set a 💲
+daily limit for it.
 
 ---
 
-*Ye tutorial RADEQuiz app ke liye hai. App update hone par steps me halka
-badlav ho sakta hai.*
+*This tutorial is for the RADEQuiz app. Steps may change slightly as the app
+is updated.*

@@ -60,7 +60,7 @@ Sr.AI'so, the in-app AI buddy, runs on your own API keys. Open AI chat → 🔑 
 
 Your key powers: AI chat, 💡 Explain answer (bilingual), Hindi translation, and the doubt box under every explanation. Token usage tracked per provider with daily limits (💲 button in chat header).
 
-📖 **Poora step-by-step tutorial (Hindi me):** [AI-API-KEY-TUTORIAL.md](AI-API-KEY-TUTORIAL.md) — key kaise banayein, app me kaise daalein, troubleshooting.
+📖 **Full step-by-step tutorial:** [AI-API-KEY-TUTORIAL.md](AI-API-KEY-TUTORIAL.md) — how to create a key, add it in the app, troubleshooting.
 
 ## 📖 Offline explanations
 
