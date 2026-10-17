@@ -142,6 +142,11 @@ Subtopic-wise PDF notes from Drive.
 |---|
 | ![Misc notes](https://raw.githubusercontent.com/kakarot24x/railwayaccountsquiz/assets/screenshots/misc-notes.jpg) |
 
+### ℹ️ About
+| About |
+|---|
+| ![About](https://raw.githubusercontent.com/kakarot24x/railwayaccountsquiz/assets/screenshots/about.jpg) |
+
 
 ---
 
