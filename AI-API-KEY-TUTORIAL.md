@@ -4,7 +4,7 @@
 Sr.AI'so is the app's AI companion — it answers Railway Accounts questions,
 explains answers and clears your doubts. This tutorial shows you how to add
 your own **API key** so you can get answers from the AI provider of your
-choice (OpenAI / Gemini / Groq).
+choice (OpenAI / Gemini / Groq / GitHub AI).
 
 ---
 
@@ -26,10 +26,11 @@ AI account.
 | **Free AI** | No | Completely free | Nothing to do |
 | **Gemini** (Google) | Yes | Free tier included | [aistudio.google.com](https://aistudio.google.com) |
 | **Groq** | Yes | Free tier included | [console.groq.com](https://console.groq.com) |
+| **GitHub AI** (GitHub Models) | Yes | Free tier included | [github.com/settings/tokens](https://github.com/settings/tokens) |
 | **OpenAI** | Yes | Paid | [platform.openai.com](https://platform.openai.com) |
 
-> **Recommendation for new users:** Try **Gemini** or **Groq** first —
-> both offer a free tier and the key is easy to create.
+> **Recommendation for new users:** Try **Gemini**, **Groq** or **GitHub AI**
+> first — all three offer a free tier and the key is easy to create.
 
 ---
 
@@ -48,6 +49,14 @@ AI account.
 3. Go to **"API Keys"** in the left menu → **"Create API Key"**.
 4. Copy the key — it starts with `gsk_`.
 
+### GitHub AI (GitHub Models) — Free
+1. Open **github.com** and sign in (create a free account if needed).
+2. Go to **Settings** → **Developer settings** → **Personal access tokens**
+   → **Fine-grained tokens** → **"Generate new token"**.
+3. Under **Account permissions**, find **"Models"** and set it to
+   **Read-only**, then **Generate token**.
+4. Copy the token — it starts with `github_pat_`.
+
 ### OpenAI — Paid
 1. Open **platform.openai.com**.
 2. Create an account and add a payment method under **Billing** (the key
@@ -65,15 +74,16 @@ AI account.
 1. Open the RADEQuiz app.
 2. Tap the round **Sr.AI'so button (FAB)** at the bottom-right — the AI chat opens.
 3. Tap the **🔑 (key)** button in the chat header — the **"AI API Keys"** sheet opens.
-4. Under **"Select AI"**, choose your provider (OpenAI / Gemini / Groq).
+4. Under **"Select AI"**, choose your provider (OpenAI / Gemini / Groq / GitHub AI).
    - If you select **Free AI**, no key is needed — the field stays disabled.
 5. **Paste** your key into the key box.
    - The hint tells you the format: `sk-...` for OpenAI, AI Studio key for
-     Gemini, `gsk_...` for Groq.
+     Gemini, `gsk_...` for Groq, `github_pat_...` for GitHub AI.
 6. Press **Save**. Done! Sr.AI'so will now answer using your provider.
 
 **Shortcut to recognise keys:** keys starting with `sk-` belong to OpenAI,
-keys starting with `gsk_` belong to Groq — the app detects this automatically.
+keys starting with `gsk_` belong to Groq, and keys starting with
+`github_pat_` belong to GitHub AI.
 
 ---
 
@@ -84,7 +94,8 @@ If you selected a provider, Sr.AI'so tries them in this order:
 1. **Your selected provider** (if its key is saved)
 2. **Gemini** (if its key is saved)
 3. **Groq** (if its key is saved)
-4. **Free AI** (always the backup — you never get an empty reply)
+4. **GitHub AI** (if its token is saved)
+5. **Free AI** (always the backup — you never get an empty reply)
 
 Every answer shows a **"Powered by ..."** badge telling you which AI replied.
 If one provider fails (e.g. quota exhausted), Sr.AI'so automatically moves to
@@ -137,7 +148,7 @@ fallback takes over.
 Yes — chat, answer explanations, and the doubt box all work on Free AI.
 
 **Q. Can I save more than one key?**
-Yes — you can save keys for all three providers at once. The fallback order
+Yes — you can save keys for all four providers at once. The fallback order
 picks the best available one.
 
 **Q. How do I change or remove a key?**
@@ -149,7 +160,7 @@ The key belongs to your account, not your phone — you'll need to paste it
 again in the app on the other phone. One key can be used in multiple places.
 
 **Q. Worried about charges?**
-Gemini and Groq free tiers cost nothing. Only OpenAI is paid — do set a 💲
+Gemini, Groq and GitHub AI free tiers cost nothing. Only OpenAI is paid — do set a 💲
 daily limit for it.
 
 ---
