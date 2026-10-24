@@ -80,6 +80,10 @@ Streak card (today's questions, accuracy, total Qs, day streak), **▶ RESUME PR
 |---|---|
 | ![Home midnight](screenshots/home-midnight.jpg) | ![Home day](screenshots/home-day.jpg) |
 
+| Home — Subjects |
+|---|
+| ![Home subjects](screenshots/home-subjects.jpg) |
+
 The navigation **drawer** shows your profile, day streak, level, access duration pill, and links to Home, My Performance, Sr.AI'so, Forum, Contact Us, About App.
 
 ![Drawer](screenshots/drawer.jpg)
@@ -104,6 +108,17 @@ Chapter-wise **Practice Sets** (50 questions each), topic lists with Attempted/R
 | Papers |
 |---|
 | ![Appendix 3 papers](screenshots/appendix3-papers.jpg) |
+
+| Paper-I Topics | Paper-II Topics | Paper-III Topics |
+|---|---|---|
+| ![Paper-I topics](screenshots/paper-1-topics.jpg) | ![Paper-II topics](screenshots/paper-2-topics.jpg) | ![Paper-III topics](screenshots/paper-3-topics.jpg) |
+
+### 🎓 LDCE (AFA) Exam
+**100 practice sets** (175 questions each, attempt any 150, 3-hour exam mode) + **10 syllabus topics** — 17,500 questions with a separate LDCE performance record.
+
+| LDCE Hub | LDCE Topics |
+|---|---|
+| ![LDCE hub](screenshots/ldce-hub.jpg) | ![LDCE topics](screenshots/ldce-topics.jpg) |
 
 ### ✨ AI Quizes
 Admin-published quizzes on focused topics (Plan Heads, Statistics Code, Revenue, Stores Account, Pension…).
@@ -134,11 +149,11 @@ Accuracy donut, stat tiles, score-trend graph, per-mode averages, activity chart
 | ![My performance](screenshots/my-performance-full.jpg) |
 
 ### 📝 Misc Notes
-Subtopic-wise PDF notes from Drive.
+Book-quality PDF notes **bundled in the app** — Paper I, Reference, Book Keeping & Paper IV (100 Essays, Rajbhasha, Letter Drafting, Precis Writing).
 
-| Misc Notes |
-|---|
-| ![Misc notes](screenshots/misc-notes.jpg) |
+| Misc Notes — Paper I | Misc Notes — Paper IV | Misc Notes — Reference |
+|---|---|---|
+| ![Misc notes](screenshots/misc-notes.jpg) | ![Misc notes Paper IV](screenshots/misc-notes-paper4.jpg) | ![Misc notes Reference](screenshots/misc-notes-reference.jpg) |
 
 
 ---
